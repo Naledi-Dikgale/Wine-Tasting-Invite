@@ -1,3 +1,15 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  /* height: 100%; */
+  width: 100%;
+  overflow-x: hidden;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -85,7 +97,7 @@
 
 /* Program Page */
 .program {
-  background-image: url('./assets/program-bg.png');
+  background-image: url("./assets/program-bg.png");
   background-size: cover;
   background-position: center;
   padding: 50px;
@@ -93,9 +105,15 @@
 }
 
 .program h2 {
-  color: #ec5242;
-  font-size: 36px;
-  margin-bottom: 20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .program-tiles {
@@ -108,14 +126,18 @@
   width: 70%;
   max-width: 250px;
   background-color: #3b3939;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   margin-bottom: 20px;
   overflow: hidden;
 }
 
 .program-tile img {
-  width: 100%;
-  height: auto;
+  width: 90;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
 }
 
 .program-tile h3 {
@@ -125,8 +147,12 @@
 }
 
 .program-tile p {
-  font-size: 16px;
-  margin: 20px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.7034px;
+  line-height: 22px;
+  color: #fff;
 }
 
 /*Images */
@@ -141,7 +167,7 @@
   width: 100%;
   max-width: 400px;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   margin-bottom: 20px;
   overflow: hidden;
 }
@@ -162,6 +188,9 @@
 }
 
 .image-text p {
+}
 
+@media only screen and(min-width:768) {
+  
 }
 
