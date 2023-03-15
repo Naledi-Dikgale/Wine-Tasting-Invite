@@ -14,9 +14,9 @@ const programTiles = document.querySelectorAll('.program-tile');
 // object 
 const tilesData = [
   {
-    imageSrc: 'tile1.jpg',
-    title: 'Tile 1',
-    description: 'Description for Tile 1',
+    imageSrc: './assets/program_icon_04.png',
+    title: 'Lecture',
+    description: 'Listen to the speakers from various Universities about wine.',
     link: '#',
   },
   {
