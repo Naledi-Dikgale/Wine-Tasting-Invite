@@ -1,0 +1,167 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #535252;
+  color: #d3d3d3;
+  padding: 10px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand a {
+  color: #d3d3d3;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-toggler-icon {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #d3d3d3;
+  border-radius: 3px;
+}
+
+.navbar-nav {
+  display: none;
+  flex-direction: column;
+  background-color: #555;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.navbar-nav .nav-item {
+  margin-bottom: 10px;
+}
+
+.navbar-nav a {
+  display: block;
+  padding: 10px;
+  color: #d3d3d3;
+  text-decoration: none;
+}
+
+/* Show Navbar on Toggle */
+.navbar-collapse {
+  display: none;
+}
+
+.navbar-collapse.show {
+  display: flex;
+}
+
+/* Home Page */
+.home {
+  padding: 50px;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ec5242;
+}
+
+.home p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Program Page */
+.program {
+  background-image: url('./assets/program-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.program h2 {
+  color: #ec5242;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.program-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.program-tile {
+  width: 70%;
+  max-width: 250px;
+  background-color: #3b3939;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.program-tile img {
+  width: 100%;
+  height: auto;
+}
+
+.program-tile h3 {
+  color: #ec5242;
+  font-size: 24px;
+  margin: 20px;
+}
+
+.program-tile p {
+  font-size: 16px;
+  margin: 20px;
+}
+
+/*Images */
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.image {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.image-text {
+  padding: 20px;
+  flex: 1;
+}
+
+.image-text h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.image-text p {
+
+}
+
