@@ -5,7 +5,7 @@
   box-sizing: border-box;
   /* height: 100%; */
   width: 100%;
-  overflow-x: hidden;
+  
 }
 /* Navbar */
 .navbar {
@@ -169,7 +169,20 @@
   margin-bottom: 10px;
 }
 .image-text p {
+  font-size: 14px;
 }
+
+.image-text h5 {
+font-size: 15px;
+line-height: 21px;
+/* or 140% */
+display: flex;
+align-items: center;
+letter-spacing: -0.08em;
+color: #F78C89;
+
+}
+
 
 
 
@@ -186,7 +199,8 @@ display: flex;
 flex-direction: column
 }
 
-}
+
+
 .program-tiles-img {
   width: 25%;
 }
@@ -202,4 +216,6 @@ p.paragraph,
 .program-tile h3 {
   text-align: left;
   padding-left: 0.5rem;
+}
+
 }

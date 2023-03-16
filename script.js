@@ -59,9 +59,9 @@ const images = document.querySelectorAll('.image');
 // object to store data for each image
 const imagesData = [
   {
-    imageSrc: 'image1.jpg',
-    title: 'Image 1',
-    description: 'Description for Image 1',
+    imageSrc: './assets/speaker_03.png',
+    title: 'SohYeong Noh',
+    description: 'Chemistry Proffessor, University of Cape Town',
     link: '#',
   },
   {
