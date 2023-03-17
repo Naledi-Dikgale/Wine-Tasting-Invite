@@ -1,0 +1,189 @@
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5efef;
+  color: #333;
+  padding: 1rem;
+}
+
+/* Navbar branding */
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Hamburger menu icon */
+.navbar-toggler {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+/* circle */
+.circle {
+  display: none;
+  margin-right: 1rem;
+}
+
+.circle span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: white;
+  color: #333;
+  font-weight: bold;
+}
+
+/* rectangle */
+
+.campaign {
+  display: block;
+  background-color: white;
+  border: red;
+  color: red;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.hello {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+.text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tile {
+  display: inline-block;
+  width: 45%;
+  margin-right: 5%;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+}
+
+/* .tile
+      display: block;
+      width: 100%;
+      margin-right: 0; */
+
+/* Media queries */
+@media (max-width: 767px) {
+  .circle {
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #333;
+  }
+
+  /* .circle-text {
+    margin-left: 20%;
+  } */
+
+  .campaign {
+    display: block;
+    margin-left: auto;
+    border: 2px solid red;
+  }
+
+  .desk-only {
+    display: none;
+  }
+
+  .desk-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    justify-content: center;
+  }
+
+  .navbar-menu {
+    display: none;
+  }
+
+  .desk-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /* padding: 0px; */
+    gap: 65px;
+    margin-left: 520px;
+  }
+
+  .circle {
+    display: block;
+    border-radius: 50%;
+    border: 2px solid #333;
+  }
+
+  .campaign {
+    display: block;
+    margin-left: auto;
+    border: 2px solid red;
+  }
+
+  /* Desktop navbar */
+  .navbar-desktop {
+    background-color: #4e4c4c;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5rem;
+  }
+
+  /* Desktop navbar icons */
+  .navbar-desktop-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+
+    /* background-color: #646363; */
+  }
+
+  .navbar-desktop-icons img {
+    margin-right: 0.5rem;
+    color: #fff;
+  }
+
+  /* Desktop navbar list */
+  .fa-brads {
+    color: #fff;
+  }
+
+  .navbar-desktop-ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .tile {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+  }
+}
