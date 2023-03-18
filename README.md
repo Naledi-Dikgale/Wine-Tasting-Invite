@@ -2,10 +2,8 @@
 
 <div align="center">
   
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>Hello Microverse</b></h3>
+  <h3><b>Wine tasting Invite</b></h3>
 
 </div>
 
@@ -32,11 +30,11 @@
 - [📝 License](#license)
 
 
-# 📖 Capstone1-project <a name="about-project"></a>
+# 📖 Wine Tasting Party Invite <a name="about-project"></a>
 
 
 
-**Capstone1-project** is a project to showcase my html,CSS and javascript skills applied in bulding a project
+**Wine Tasing invite-project** is a project to showcase my html,CSS and javascript skills applied in bulding a project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -62,7 +60,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo">https://www.loom.com/share/db85773da19c4a2086ddb25241d3484a</a>
+## 🚀 Live Demo <a name="live-demo">https://youtu.be/iueJzSJxBfw</a>
 
 
 
@@ -150,7 +148,7 @@ If you like this project Please star it in my github page.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🙏 Acknowledgments <a name="acknowledgements">Cindy Shin</a>
+## 🙏 Acknowledgments <a name="Sindy Shin">https://www.behance.net/adagio07</a>
 
 
 I would like to thank my teammates.

@@ -6,11 +6,13 @@ const foldMenu = document.querySelector('.close');
 
 function openMobMenu() {
   menuCont.classList.add('menu-open');
+  menuCont.style.display = 'block'
 }
 
 expandMenu.addEventListener('click', openMobMenu);
 function closeMobMenu() {
   menuCont.classList.remove('menu-open');
+  menuCont.style.display = 'none'
 }
 foldMenu.addEventListener('click', closeMobMenu);
 
@@ -64,7 +66,7 @@ speakersList.forEach((speaker) => {
   const innerProject = document.createElement('div');
   innerProject.classList.add('flex', 'p-[20px]', 'justify-center', 'gap-5', 'flex-row', 'mb-10', 'relative', 'speaker');
   innerProject.innerHTML = (`
-    <img class="-z-9" ${speaker.speakerImage}>
+    <img class="-z-9 objec-contain" ${speaker.speakerImage}>
     <div class="flex flex-col gap-1">
         <h2 class="text-[1.17rem] text-[#272a31]">${speaker.name}</h2>
         <p class="text-[16px] text-[#ec5242]">${speaker.title}</p>

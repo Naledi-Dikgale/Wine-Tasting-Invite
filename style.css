@@ -66,12 +66,23 @@ i:hover {
 }
 
 .partners {
-  height: 50px;
-  width: 150px;
+  height: 10px;
+  width: 30px;
 }
 
 #project-text {
   text-align: left;
+}
+
+@media (max-width: 768px) {
+  #speakers {
+    width: 100vw;
+  }
+
+  .partnersec {
+    display: flex;
+    align-items: center;
+  }
 }
 
 /*  desktop */
@@ -95,5 +106,10 @@ i:hover {
   .menu-open,
   .close {
     display: none;
+  }
+
+  .partners {
+    height: 50px;
+    width: 150px;
   }
 }
