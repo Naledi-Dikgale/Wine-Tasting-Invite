@@ -1,161 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css"
-    integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.min.css"
-    integrity="sha512-bdTSJB23zykBjGDvyuZUrLhHD0Rfre0jxTd0/jpTbV7sZL8DCth/88aHX0bq2RV8HK3zx5Qj6r2rRU/Otsjk+g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css"
-    integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
-  <title>Naledi's Capstone</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Naledi's Capstone</title>
 </head>
-
 <body>
-  <!--Navbar-->
-  <  <nav class="navbar-desktop">
-    <div class="desk-only">
-        <div class="navbar-desktop-icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-        </div>
-        <div class="navbar-desktop-list">
-            <ul class="navbar-desktop-ul">
-          <li>English</li>
-          <li>My Page</li>
-          <li>Layout</li>
+    <header>
+        <ul class="hidden items-center bg-gray-800 text-white md:flex justify-end h-[30px] pr-[10%]">
+            <li class="p-1"><a href=""><i class="bi bi-facebook"></i></a></li>
+            <li class="p-1"><a href=""><i class="bi bi-twitter"></i></a></li>
+            <li class="p-1"><a href="">English   </a></li>
+            <li class="p-1"><a href="">My Page   </a></li>
+            <li class="p-1"><a href="">logout    </a></li>
         </ul>
-        </div>
-    </div>
-      </nav>
-
-        <nav class="navbar">
-          <button class="navbar-toggler">
-            <a href="#"><img class="navbar-menu" src="./assets/mobile_menu.png"></a>
-            <span class="circle">
-              <span>W</span>
-            </span>
-          </button>
-        <div class="circle-text">
-          <a class="navbar-brand" href="#">Wine</a>
-        </div>
-          <div class="desk-menu">
-          <span class="about">About</span>
-          <span class="program">Program</span>
-          <span class="join">Join</span>
-          <span class="sponsor">Sponsor</span>
-          <span class="news">News</span>
-        </div>
-          <span class="campaign">Campaign</span>
+        <nav class="px-[10%] md:flex h-[55px] justify-between shadow-xl">
+            <i class="menulist bi bi-list md:hidden p-4 text-[40px] pl-0 "></i>
+            <a class="p-3 hidden md:flex" href="index.html"><img src="assets/wine-glass.png" alt="">wine~up</a>
+            <ul class="items md:flex items-center justify-center">
+                <li class="close"><i class="bi bi-x-lg"></i></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="about.html">About</a></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Program</a></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Join</a></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Sponsor</a></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">News</a></li>
+                <li class="item p-1 m-1 hover:text-[#ec5242] border-solid border-4 border-[#ec5242]"><a href="">CC Campaign</a></li>
+            </ul>
         </nav>
-    
-  </nav>
+    </header>
+    <main>
+        <section class=" bg-text-clip h-screen bg-[url('assets/desk.png')] bg-contain bg-opacity-10 ">
+            <div class="px-[10%] bg-[#5f5f5f50] h-screen flex justify-center flex-col gap-5">
+                <div class="text-[#ec5242]">
+                    <h2 class="text-[25px] md:text-[50px]">"Hello! Sharing world"</h2>
+                    <h1 class=" text-[40px] md:text-[80px] cocogoose">The Grape Escape<br>Wine Tasting and Braai</h1>
+                </div>
+                <div class="bg-[#d3d3d3] text-[#ec5242] w-[100%] md:w-[65%] px-[5%] py-[1%] border-solid border-2 border-[fff]">
+                    <p>Come raise your glass with us on yet another one of our annual parties where we share inside information with future Scientists on how
+                        to brew the finest wine in the world,</p>
+                </div>
+                <div class="text-[#272a31]">
+                    <h2 class="text-[25px] md:text-[40px] text-[#272a31]">2023.March.17(Fri)~19(Sun)</h2>
+                    <p>
+                        @Stellenbosch Wine farms, Cape Town
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#272a31] py-[5%] px-[3%] md:px-[10%] bg-[url('assets/program-bg.png')] text-center text-white flex flex-col items-center">
+            <h2 class="text-center text-white text-[20px]">Main program</h2>
+            <hr class="w-[40px] bg-[#ec5242] h-[3px]">
+            <div class="ml-[3%] mt-[50px] pb-[100px] grid  gap-2 md:gap-5 grid-cols-1 md:grid-cols-5 justify-items-center">
+                <div class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center">
+                    <img  src="assets/program_icon_01.png" alt="">
+                    <h2 class="text-[20px] text-[#ec5242]">Lecture</h2>
+                    <p class="text-[12px] ">Listen to the speakers from various countries about the messages of sharing and opening..</p>
+                </div>
+                <div class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center">
+                    <img  src="assets/program_icon_04.png" alt="">
+                    <h2 class="text-[20px] text-[#ec5242]">CC Exhibition</h2>
+                    <p class="text-[12px] ">Appreciate various creations applying CC license of artists, organized from Art Center Nabi.</p>
+                </div>
+                <div class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center">
+                    <img src="assets/program_icon_05.png" alt="">
+                    <h2 class="text-[20px] text-[#ec5242]">Forum</h2>
+                    <p class="text-[12px] ">Have the time to share your thoughts and opinions with experts for each topic.</p>
+                </div>
+                <div class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center">
+                    <img class="justify-center" src="assets/program_icon_01.png" alt="">
+                    <h2 class="text-[20px] text-[#ec5242]">Workshop</h2>
+                    <p class="text-[12px] ">Try creating your own work using open source license rather than just watching at it..</p>
+                </div>
+                <div class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center">
+                    <img src="assets/program_icon_01.png" alt="">
+                    <h2 class="text-[20px] text-[#ec5242]">CC Ignite</h2>
+                    <p class="text-[12px] ">Get opportunities to network with CC affiliates around the world, also after the summit..</p>
+                </div>
+            </div>
+            <div class=" md:hidden text-white bg-[#ec5242] px-[20%] py-[5%]">
+                <a href="">Join The Grape Escape 2023</a>
+            </div>
+            <div class="hidden md:flex flex-col items-center underline">
+                <a href="">
+                    <p>SEE THE WHOLE PROGRAM</p>
+                </a>
+            </div>
+        </section>
+        <section class="px-[12%] flex flex-col items-center py-[3%]">
+            <h2 class="text-center text-black text-[20px]">Featured speakers</h2>
+            <hr class="w-[35px] bg-[#ec5242] h-[4px]">
+            <div id="speakers" class="ml-[3%] mt-[72px] grid gap-[12px] grid-cols-1 md:grid-cols-2 justify-items-center">
 
-  <!-- Home Page-->
-  <div class="home">
-    <h1>The Grape Escape: Ultimate Science of Wine 2023!</h1>
-    <p>We invite you to the upclose Chemistry of wine making and tasting.</p>
-    <p>This, you do not want to miss. <br><span>2023.10.15(THU) ~ 16(FRI)</span>
-      <br><span>@ Stellenbosch Wine Farm, Cape Town</span> </p>
-  </div>
+            </div>
+        </section>
+        <section class="hidden bg-[#414246] px-[10%] py-[3%] md:flex flex-col items-center">
+            <h2 class="text-center text-[#d3d3d3] text-[20px]">Sponsors</h2>
+            <hr class="w-[45px] bg-[#ec5242] h-[4px]">
+            <div class="flex gap-10 justify-center item-center m-[20px] flex-wrap">
+                <a href=""><img src="assets/sponsors/airbnb.png" alt="icon"></a>
+                <a href=""><img src="assets/sponsors/google.png" alt="icon"></a>
+                <a href=""><img src="assets/sponsors/mozilla.png" alt="icon"></a>
+                <a href=""><img src="assets/sponsors/naver.png" alt="icon"></a>
+                <a href=""><img src="assets/sponsors/airbnb.png" alt="icon"></a>
+            </div>
+        </section>
+    </main>
+    <footer class="hidden px-[10%] py-[3%] md:flex gap-10">
+        <a href=""><img src="assets/wine-glass.png" alt="wine-glass icon">wine~up</a>
+        <div>
+            <h3>2023 Naledi Dikgale South Africa. some rights reserved</h3>
+            <p>Naledi Dikgale “all rights reserved”
+                달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
+자세한 이용기능 내용과 허락조건은 http://naldi22khosi@gmail.com/licences/by/2.0/kr 를 보세요.
+            </p>
+        </div>
 
-  <!-- Program Page -->
-  <div class="program">
-    <div class="program-header"><h2>Main Program</h2>
-    <div class="line"></div>
-</div>
-    <div class="program-tiles">
-      <div class="program-tile">
-        <div class="program-tiles-img"><img src="./assets/program_icon_04.png" alt="Program 1"></div>
-        <h3>Lecture</h3>
-        <p class="paragraph">Listen to the speakers from various Universities about wine.</p>
-      </div>
-      <div class="program-tile">
-        <div class="program-tiles-img"><img src="./assets/program_icon_05.png" alt="Program 1"></div>
-        <h3>Forum</h3>
-        <p>Get opportunitiy to guess the wine on a blindfold for a price.</p>
-      </div>
-      <div class="program-tile">
-        <div class="program-tiles-img"><img src="./assets/program_icon_04.png" alt="Program 1"></div>
-        <h3>Workshop</h3>
-        <p>Enhance you skills with our pepole</p>
-      </div>
-      <div class="program-tile">
-        <div class="program-tiles-img"><img src="./assets/program_icon_01.png" alt="Program 1"></div>
-        <h3>CC Ignite</h3>
-        <p>Get a chance to share your thoughts with experts</p>
-      </div>
-      <div class="program-tile">
-        <div class="program-tiles-img"><img src="./assets/program_icon_04.png" alt="Program 1"></div>
-        <h3>CC Exhibition</h3>
-        <p>Appreciate various creations sharing wine brewing skills</p>
-      </div>
-      
-    </div>
-  </div>
-
-  <!--Images -->
-  <div class="images">
-    <div class="image">
-      <img src="./assets/speaker_03.png" alt="Image 1">
-      <div class="image-text">
-        <h4>SohYeong Noh</h4>
-        <h5>'Director of Art Centre Nabi and a board member of CC Korea</h5>
-        <p>As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.</p>
-      </div>
-    </div>
-    <div class="image">
-      <img src="./assets/speaker_01.png" alt="Image 2">
-      <div class="image-text">
-        <h4>Yochai Benkler</h4>
-        <h5>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h5>
-        <p>Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
-      </div>
-    </div>
-    <div class="image">
-      <img src="./assets/speaker_04.png" alt="Image 3">
-      <div class="image-text">
-        <h4>Julia Leda</h4>
-        <h5>President of Young Pirates of Europe</h5>
-        <p>European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July</p>
-      </div>
-    </div>
-    <div class="image">
-      <img src="./assets/speaker_05.png" alt="Image 3">
-      <div class="image-text">
-        <h4>Lila tretikov</h4>
-        <h5>Executive Director of the Wikimedia Foundation</h5>
-        <p>Lila Tretikov is the Executive of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languag-es and used by nearly half a billion people around the world every month.</p>
-      </div>
-      <img src="./assets/speaker_03.png" alt="Image 1">
-      <div class="image-text">
-        <h4>SohYeong Noh</h4>
-        <h5>'Director of Art Centre Nabi and a board member of CC Korea</h5>
-        <p>As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.</p>
-      </div>
-    </div>
-    <div class="image">
-      <img src="./assets/speaker_01.png" alt="Image 2">
-      <div class="image-text">
-        <h4>Yochai Benkler</h4>
-        <h5>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h5>
-        <p>Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
-      </div>
-    </div>
-  <script src="script.js"></script>
-  </body>
-      
+    </footer>
+  
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,137 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./about.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css"
-    integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.min.css"
-    integrity="sha512-bdTSJB23zykBjGDvyuZUrLhHD0Rfre0jxTd0/jpTbV7sZL8DCth/88aHX0bq2RV8HK3zx5Qj6r2rRU/Otsjk+g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css"
-    integrity="sha512-cHxvm20nkjOUySu7jdwiUxgGy11vuVPE9YeK89geLMLMMEOcKFyS2i+8wo0FOwyQO/bL8Bvq1KMsqK4bbOsPnA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
-  <title>Naledi's Capstone</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Naledi's Capstone</title>
 </head>
 <body>
-    
-    <nav class="navbar-desktop">
-    <div class="desk-only">
-        <div class="navbar-desktop-icons">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-twitter"></i>
-        </div>
-        <div class="navbar-desktop-list">
-            <ul class="navbar-desktop-ul">
-          <li>English</li>
-          <li>My Page</li>
-          <li>Layout</li>
+    <header>
+        <ul class="hidden items-center bg-gray-800 text-white md:flex justify-end h-[30px] pr-[10%]">
+            <li class="p-1"><a href=""><i class="bi bi-facebook"></i></a></li>
+            <li class="p-1"><a href=""><i class="bi bi-twitter"></i></a></li>
+            <li class="p-1"><a href="">English   </a></li>
+            <li class="p-1"><a href="">My Page   </a></li>
+            <li class="p-1"><a href="">logout    </a></li>
         </ul>
-        </div>
-    </div>
-      </nav>
-
-        <nav class="navbar">
-          <button class="navbar-toggler">
-            <a href="#"><img class="navbar-menu" src="./assets/mobile_menu.png"></a>
-            <span class="circle">
-              <span>W</span>
-            </span>
-          </button>
-        <div class="circle-text">
-          <a class="navbar-brand" href="#">Wine</a>
-        </div>
-          <div class="desk-menu">
-          <span class="about">About</span>
-          <span class="program">Program</span>
-          <span class="join">Join</span>
-          <span class="sponsor">Sponsor</span>
-          <span class="news">News</span>
-        </div>
-          <span class="campaign">Campaign</span>
+        <nav class="px-[10%] md:flex h-[55px] justify-between shadow-xl">
+            <i class="menulist bi bi-list md:hidden p-4 text-[40px] pl-0 "></i>
+            <a class="p-3 hidden md:flex" href="index.html"><img src="assets/wine-glass.png" alt=""> </a>
+            <ul class="items md:flex items-center justify-center">
+                <li class="close"><i class="bi bi-x-lg"></i></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="index.html">Home</a></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Program</a></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Join</a></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Sponsor</a></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">News</a></li>
+                <li class="item p-1 m-1 hover:text-[#ec5242] border-solid border-4 border-[#ec5242]"><a href="">CC Campaign</a></li>
+            </ul>
         </nav>
-    
-            <div class="hello">
-              <div class="text">
-                <h2>"Hello Sharing World!"</h2>
-                <h1>The Grape Escape: Ultimate Science of Wine 2023!</h1>
-                <p>The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two years.
-                    This year, we hope to expand our invitation list including organizations and individuals who want to work with us on shared projects that advance the cause of the Commons, free culture and open knowledge.
-                    So if you're active and engaged in the worlds of open content and knowledge - free software advocates, wikipedians, Open knowledge, galleries, libraries, museums, archives, governments and foundations, lawyers, and activists - we hope you'll consider joining us this year to build a stronger, more vibrant commons together
-                </p>
-              </div>
-              <div class="text">
-                <h2></h2>
-                <p>Please contact us per Email for nay further questions about CC Global Summit 2023!</p>
-              </div>
-              <div class="text">
-                <h2></h2>
-                <p>ccsummit2023@cckorea.org.</p>
-              </div>
+    </header>
+    <main>
+        <section class=" bg-[url('assets/desk.png')] bg-contain bg-slate-400">
+            <div class=" bg-[#5f5f5f50] flex flex-col text-center items-center justify-items-center py-[5%] gap-10">
+                <div class="text-[#ec5242]">
+                    <h1 class="text-[40px] md:text-[80px] cocogoose">The Grape Escape<br>Wine Tasting and Braai</h1>
+                </div>
+                <hr class="w-[40px] bg-[#ec5242] h-[3px]">
+                <div class=" flex bg-white text-[#272a31] px-[10%] py-[5%] text-[#746f6f] mx-[10%] border-solid border-[1px] border-[#d3d3d3]">
+                    <p>Come raise your glass with us on yet another one of our annual parties where we share inside information with future Scientists on how
+                      to brew the finest wine in the world,</p>
+                </div>
+                    <p class="text-black">
+                        Communicate via Email for clarity and reservations!<br>
+                        naledi22khosi@gmail.com
+                    </p>
             </div>
-            <div class="about-1">
-              <div class="text">
-                <h2>Creative Commons Global Summit 2023 Logo</h2>
-                <p>The logo of CC Global Summit 2023 was decided through the logo competition from 8, June to 7, July.
-                    After online public voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the prize.
-                    After consultation with Mr. Agrawal, we optimized the prize-winning-logo for this year’s summit as follows:</p>
-              </div>
-              <div class="text">
-                <h2></h2>
-                <p>wine logo</p>
-              </div>
-              <div class="text">
-                <h2></h2>
-                <p>Division 3 text goes here.</p>
-              </div>
+        </section>
+        <hr class="bg-[#ec5242] flex w-[100%] item-center">
+        <section class="bg-white  px-[10%] text-center text-black flex flex-col items-center gap-3">
+            <h2 class="text-center text-[#272a31] text-[25px] mt-[5%]">The ultimate wine tasting party of 2023</h2>
+            <hr class="w-[40px] bg-[#ec5242] h-[3px]">
+            <p class="text-center">
+              The logo of CC Global Summit 2023 was decided through the logo competition from 8, June to 7, July.
+            </p>
+            <div class="my-[5%] px-[5%] py-[2%] border-solid border-[1px] border-[#d3d3d3]">
+            <img src="assets/wine-glass.png" alt="">
             </div>
-            <div class="about-2">
-              <div class="text">
-                <h3>See the past CC Global Summits</h3>
-                <h5>Take a look at the past two CC Global Summits which took place in Buenos Aires and in Warsaw</h5>
-              </div>
-              <div class="tile" style="background-image: url('image1.jpg');">
-                <h3>2011</h3>
-                <p>CC Global Summit in Lesotho</p>
-              </div>
-              <div class="tile" style="background-image: url('image2.jpg');">
-                <h3>2013</h3>
-                <p>CC Global Summit in SA.</p>
-              </div>
-            </div>
-            <div class="sponsors" id="sponsors">
-              <div class="sponsors-text">
-                <h2>Partner</h2>
-                <ul>
-                  <li><img src="sponsor1.png" alt="Sponsor 1"></li>
-                  <li><img src="sponsor2.png" alt="Sponsor 2"></li>
-                  <li><img src="sponsor3.png" alt="Sponsor 3"></li>
-                  <li><img src="sponsor4.png" alt="Sponsor 4"></li>
-                </ul>
-              </div>
-            </div>
-            <div class="footer">
-              <div class="footer-text">
-                <p>Copyright © 2023 
-                My Website. All rights reserved.</p>
-              </div>
-              <div class="footer-text">
-                <p>Designed by Naledi</p>
-              </div>
+        </section>
+        <hr class="bg-[#ec5242] flex w-[100%] item-center">
+        <section class="px-[10%] flex flex-col items-center gap-3 justify-center items-center">
+            <h2 class="text-center text-[#272a31] text-[25px] mt-[5%]">See the past Wine tasting Parties</h2>
+            <hr class="w-[40px] bg-[#ec5242] h-[3px]">
+            <p>Take a look at the past two Wine tasting parties which took place in Lesotho and in Botswana</p>
+            <div class="ml-[3%] mt-[50px] pb-[100px] grid gap-[10px] grid-cols-1 md:grid-cols-2 justify-items-center">
 
-    
-        <script src="script.js"></script>
-      </body>
-    </html>
-    
+                <div class="h-[320px]  bg-[url('assets/hero-background.jpg')] bg-contain ">
+                    <div class=" text-[#fff] hover:bg-[#ec53423d] bg-[#ec5342bd] h-[inherit] p-[20px] flex justify-center  flex-col flex-nowrap gap-5 items-center">
+                        <h2 class="text-[25px] text-[#fff]">2019</h2>
+                        <p class="text-center">Wine Tasting Party in Lesotho.</p>
+                    </div>
+                </div>
+
+                <div class="h-[320px]  bg-[url('assets/hero-background.jpg')] bg-contain ">
+                    <div class=" text-[#fff] hover:bg-[#ec53423d] bg-[#ec5342bd] h-[inherit] p-[20px] flex justify-center  flex-col flex-nowrap gap-5 items-center">
+                        <h2 class="text-[25px] text-[#fff]">2021</h2>
+                        <p class="text-center">Wine Tasting Party in Botswana.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="px-[10%] py-[5%] text-white flex bg-[#414246]">
+        <a href=""><img src="assets/wine-glass.png" alt=""></a>
+        <div class="px-[5%]">
+            <h3>2023 Naledi Dikgale South Africa. some rights reserved</h3>
+            <p class="hidden md:block">Naledi Dikgale copyright “all rights reserved”
+                달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
+자세한 이용기능 내용과 허락조건은 http://naldi22khosi@gmail.com/licences/by/2.0/kr 를 보세요.
+            </p>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

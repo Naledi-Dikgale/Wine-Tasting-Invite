@@ -1,99 +1,76 @@
-// capstone
+// navigation javascript
+const expandMenu = document.querySelector('.menulist');
+const navItem = document.querySelectorAll('.item');
+const menuCont = document.querySelector('.items');
+const foldMenu = document.querySelector('.close');
 
-// Responsive Navbar
-const navbarToggle = document.querySelector('.navbar-toggler');
-const navbarCollapse = document.querySelector('.navbar-collapse');
+function openMobMenu() {
+  menuCont.classList.add('menu-open');
+}
 
-navbarToggle.addEventListener('click', () => {
-  navbarCollapse.classList.toggle('show');
+expandMenu.addEventListener('click', openMobMenu);
+function closeMobMenu() {
+  menuCont.classList.remove('menu-open');
+}
+foldMenu.addEventListener('click', closeMobMenu);
+
+navItem.forEach((menuItem) => {
+  menuItem.addEventListener('click', closeMobMenu);
 });
 
-// Program Page 
-const programTiles = document.querySelectorAll('.program-tile');
+// famous speakers javascript
 
-// object 
-const tilesData = [
+const speakersList = [
   {
-    imageSrc: './assets/program_icon_04.png',
-    title: 'Lecture',
-    description: 'Listen to the speakers from various Universities about wine.',
-    link: '#',
+    speakerImage: 'src="assets/speaker_01.png" alt="Desktop-project3"',
+    name: 'Yochai Benkler',
+    title: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
+    description: 'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
   },
   {
-    imageSrc: 'tile2.jpg',
-    title: 'Tile 2',
-    description: 'Description for Tile 2',
-    link: '#',
+    speakerImage: 'src="assets/speaker_02.png" alt="Desktop-project3"',
+    name: 'Kilnam Chon',
+    title: 'Director of Art Centre Nabi and a board member of CC Botlokwa',
+    description: 'Kilnam Chon helped bring the internet to Asia and is an outspoken advocate for the open web and digital com-mons. In 2012. he was inducted into the inaugural class of the Internet Society’s (ISOC) Internet Hall of Fame',
   },
   {
-    imageSrc: 'tile3.jpg',
-    title: 'Tile 3',
-    description: 'Description for Tile 3',
-    link: '#',
+    speakerImage: 'src="assets/speaker_03.png" alt="Desktop-project3"',
+    name: 'SohYeong Noh',
+    title: 'Director of Art Centre Nabi and a board member of CC Korea',
+    description: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
   },
   {
-    imageSrc: 'tile4.jpg',
-    title: 'Tile 4',
-    description: 'Description for Tile 4',
-    link: '#',
+    speakerImage: 'src="assets/speaker_04.png" alt="Desktop-project3"',
+    name: 'Lila Tretikov',
+    title: 'Executive Director of the Wikimedia Foundation',
+    description: 'Lila Tretikov is the Executive of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languag-es and used by nearly half a billion people around the world every month.',
   },
   {
-    imageSrc: 'tile5.jpg',
-    title: 'Tile 5',
-    description: 'Description for Tile 5',
-    link: '#',
+    speakerImage: 'src="assets/speaker_05.png" alt="Desktop-project3"',
+    name: 'Julia Leda',
+    title: 'President of Young Pirates of Europe.',
+    description: 'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
+  },
+  {
+    speakerImage: 'src="assets/speaker_05.png" alt="Desktop-project3"',
+    name: 'Julia Leda',
+    title: 'President of Young Pirates of Europe.',
+    description: 'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
   },
 ];
 
-// Loop through each tile 
-programTiles.forEach((tile, index) => {
-  tile.querySelector('img').src = tilesData[index].imageSrc;
-  tile.querySelector('h3').textContent = tilesData[index].title;
-  tile.querySelector('p').textContent = tilesData[index].description;
-  tile.querySelector('a').href = tilesData[index].link;
-});
-
-// Images 
-const images = document.querySelectorAll('.image');
-
-// object to store data for each image
-const imagesData = [
-  {
-    imageSrc: './assets/speaker_03.png',
-    title: 'SohYeong Noh',
-    description: 'Chemistry Proffessor, University of Cape Town',
-    link: '#',
-  },
-  {
-    imageSrc: 'image2.jpg',
-    title: 'Image 2',
-    description: 'Description for Image 2',
-    link: '#',
-  },
-  {
-    imageSrc: 'image3.jpg',
-    title: 'Image 3',
-    description: 'Description for Image 3',
-    link: '#',
-  },
-  {
-    imageSrc: 'image4.jpg',
-    title: 'Image 4',
-    description: 'Description for Image 4',
-    link: '#',
-  },
-  {
-    imageSrc: 'image5.jpg',
-    title: 'Image 5',
-    description: 'Description for Image 5',
-    link: '#',
-  },
-];
-
-// Loop 
-images.forEach((image, index) => {
-  image.querySelector('img').src = imagesData[index].imageSrc;
-  image.querySelector('h4').textContent = imagesData[index].title;
-  image.querySelector('p').textContent = imagesData[index].description;
-  image.querySelector('a').href = imagesData[index].link;
+const speakerss = document.querySelector('#speakers');
+speakersList.forEach((speaker) => {
+  const innerProject = document.createElement('div');
+  innerProject.classList.add('flex', 'p-[20px]', 'justify-center', 'gap-5', 'flex-row', 'mb-10', 'relative', 'speaker');
+  innerProject.innerHTML = (`
+    <img class="-z-9" ${speaker.speakerImage}>
+    <div class="flex flex-col gap-1">
+        <h2 class="text-[1.17rem] text-[#272a31]">${speaker.name}</h2>
+        <p class="text-[16px] text-[#ec5242]">${speaker.title}</p>
+        <hr class="w-[40px] bg-[#d3d3d3] h-[1px]">
+        <p class="text-[12px]" >${speaker.description}</p>
+    </div>
+      `);
+  speakerss.appendChild(innerProject);
 });
