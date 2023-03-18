@@ -4,24 +4,24 @@
     "description": "<a name=\"readme-top\"></a>",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Naledi-Dikgale/hello-microverse.git"
+        "type": "git",
+        "url": "git+https://github.com/Naledi-Dikgale/hello-microverse.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/Naledi-Dikgale/hello-microverse/issues"
+        "url": "https://github.com/Naledi-Dikgale/hello-microverse/issues"
     },
     "homepage": "https://github.com/Naledi-Dikgale/hello-microverse#readme",
     "devDependencies": {
-      "hint": "^7.1.3",
-      "stylelint": "^13.13.1",
-      "stylelint-config-standard": "^21.0.0",
-      "stylelint-csstree-validator": "^1.9.0",
-      "stylelint-scss": "^3.21.0"
+        "hint": "^2.0.0",
+        "stylelint": "^13.13.1",
+        "stylelint-config-standard": "^21.0.0",
+        "stylelint-csstree-validator": "^1.9.0",
+        "stylelint-scss": "^3.21.0"
     }
-  }
+}
