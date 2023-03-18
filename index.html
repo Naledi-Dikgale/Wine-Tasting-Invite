@@ -1,138 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <title>Naledi's Capstone</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <ul class="hidden items-center bg-gray-800 text-white md:flex justify-end h-[30px] pr-[10%]">
-            <li class="p-1"><a href=""><i class="bi bi-facebook"></i></a></li>
-            <li class="p-1"><a href=""><i class="bi bi-twitter"></i></a></li>
-            <li class="p-1"><a href="">English</a></li>
-            <li class="p-1"><a href="">My Page</a></li>
-            <li class="p-1"><a href="">logout </a></li>
+      <ul
+        class="hidden items-center bg-gray-800 text-white md:flex justify-end h-[30px] pr-[10%]"
+      >
+        <li class="p-1">
+          <a href=""><i class="bi bi-facebook"></i></a>
+        </li>
+        <li class="p-1">
+          <a href=""><i class="bi bi-twitter"></i></a>
+        </li>
+        <li class="p-1"><a href="">English</a></li>
+        <li class="p-1"><a href="">My Page</a></li>
+        <li class="p-1"><a href="">logout </a></li>
+      </ul>
+
+      <!-- navigation -->
+
+      <nav class="px-[10%] md:flex h-[55px] justify-between shadow-xl">
+        <i class="menulist bi bi-list md:hidden p-4 text-[40px] pl-0"></i>
+        <a class="p-3 hidden md:flex" href="index.html"
+          ><img class="logo" src="assets/wine-glass.png" alt="" />wine~up</a
+        >
+        <ul class="items md:flex items-center justify-center">
+          <li class="close"><i class="bi bi-x-lg"></i></li>
+          <li class="item p-3 m-1 hover:text-[#ec5242]">
+            <a href="about.html">About</a>
+          </li>
+          <li class="item p-3 m-1 hover:text-[#ec5242]">
+            <a href="">Program</a>
+          </li>
+          <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Join</a></li>
+          <li class="item p-3 m-1 hover:text-[#ec5242]">
+            <a href="">Sponsor</a>
+          </li>
+          <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">News</a></li>
+          <li
+            class="item p-1 m-1 hover:text-[#ec5242] border-solid border-4 border-[#ec5242]"
+          >
+            <a href="">CC Campaign</a>
+          </li>
         </ul>
-
-<!-- navigation -->
-
-        <nav class="px-[10%] md:flex h-[55px] justify-between shadow-xl">
-            <i class="menulist bi bi-list md:hidden p-4 text-[40px] pl-0 "></i>
-            <a class="p-3 hidden md:flex" href="index.html"><img class="logo" src="assets/wine-glass.png" alt="">wine~up</a>
-            <ul class="items md:flex items-center justify-center">
-                <li class="close"><i class="bi bi-x-lg"></i></li>
-                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="about.html">About</a></li>
-                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Program</a></li>
-                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Join</a></li>
-                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Sponsor</a></li>
-                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">News</a></li>
-                <li class="item p-1 m-1 hover:text-[#ec5242] border-solid border-4 border-[#ec5242]"><a href="">CC Campaign</a></li>
-            </ul>
-        </nav>
+      </nav>
     </header>
     <main>
-        <section class=" bg-text-clip h-screen bg-[url('assets/desk.png')] bg-contain bg-opacity-10 ">
-            <div class="px-[10%] bg-[#5f5f5f50] h-screen flex justify-center flex-col gap-5">
-                <div class="text-[#ec5242]">
-                    <h2 class="text-[25px] md:text-[50px]">"Hello! Sharing world"</h2>
-                    <h1 class=" text-[40px] md:text-[80px] (lato black)">The Grape Escape<br>Wine Tasting and Braai</h1>
-                </div>
-                <div class="bg-[#d3d3d3] text-[#ec5242] w-[100%] md:w-[65%] px-[5%] py-[1%] border-solid border-2 border-[fff]">
-                    <p>Come raise your glass with us on yet another one of our annual parties where we share inside information with future Scientists on how
-                        to brew the finest wine in the world,</p>
-                </div>
-                <div class="text-[#272a31]">
-                    <h2 class="text-[25px] md:text-[40px] text-[#272a31]">2023.March.17(Fri)~19(Sun)</h2>
-                    <p>
-                        @Stellenbosch Wine farms, Cape Town
-                    </p>
-                </div>
-            </div>
-        </section>
+      <section
+        class="bg-text-clip h-screen bg-[url('assets/desk.png')] bg-contain bg-opacity-10"
+      >
+        <div
+          class="px-[10%] bg-[#5f5f5f50] h-screen flex justify-center flex-col gap-5"
+        >
+          <div class="text-[#ec5242]">
+            <h2 class="text-[25px] md:text-[50px]">"Hello! Sharing world"</h2>
+            <h1 class="text-[40px] md:text-[80px] (lato black)">
+              The Grape Escape<br />Wine Tasting and Braai
+            </h1>
+          </div>
+          <div
+            class="bg-[#d3d3d3] text-[#ec5242] w-[100%] md:w-[65%] px-[5%] py-[1%] border-solid border-2 border-[fff]"
+          >
+            <p>
+              Come raise your glass with us on yet another one of our annual
+              parties where we share inside information with future Scientists
+              on how to brew the finest wine in the world,
+            </p>
+          </div>
+          <div class="text-[#272a31]">
+            <h2 class="text-[25px] md:text-[40px] text-[#272a31]">
+              2023.March.17(Fri)~19(Sun)
+            </h2>
+            <p>@Stellenbosch Wine farms, Cape Town</p>
+          </div>
+        </div>
+      </section>
 
-<!-- main program -->
+      <!-- main program -->
 
-        <section class="bg-[#272a31] py-[5%] px-[3%] md:px-[10%] bg-[url('assets/program-bg.png')] text-center text-white flex flex-col items-center">
-            <h2 class="text-center text-white text-[20px]">Main program</h2>
-            <hr class="w-[40px] bg-[#ec5242] h-[3px]">
-            <div class="ml-[3%] mt-[50px] pb-[100px] grid  gap-2 md:gap-5 grid-cols-1 md:grid-cols-5 justify-items-center">
-                <div class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center">
-                    <img  src="assets/program_icon_01.png" alt="desk-logo">
-                    <h2 class="text-[20px] text-[#ec5242]">Lecture</h2>
-                    <p class="text-[12px] " id="project-text">Listen to the speakers from various countries about the messages of sharing and opening..</p>
-                </div>
-                <div class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center">
-                    <img  src="assets/program_icon_04.png" alt="white-board-logo">
-                    <h2 class="text-[20px] text-[#ec5242]">CC Exhibition</h2>
-                    <p class="text-[12px] " id="project-text">Appreciate various creations applying CC license of artists, organized from Art Center Nabi.</p>
-                </div>
-                <div class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center">
-                    <img src="assets/program_icon_05.png" alt="forum-logo">
-                    <h2 class="text-[20px] text-[#ec5242]">Forum</h2>
-                    <p class="text-[12px] " id="project-text">Have the time to share your thoughts and opinions with experts for each topic.</p>
-                </div>
-                <div class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center">
-                    <img class="justify-center" src="assets/program_icon_01.png" alt="desk-logo">
-                    <h2 class="text-[20px] text-[#ec5242]">Workshop</h2>
-                    <p class="text-[12px] " id="project-text">Try creating your own work using open source license rather than just watching at it..</p>
-                </div>
-                <div class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center">
-                    <img src="assets/program_icon_01.png" alt="desk-logo">
-                    <h2 class="text-[20px] text-[#ec5242]">CC Ignite</h2>
-                    <p class="text-[12px] " id="project-text">Get opportunities to network with CC affiliates around the world, also after the summit..</p>
-                </div>
-            </div>
-            <div class=" md:hidden text-white bg-[#ec5242] px-[20%] py-[5%]">
-                <a href="">Join The Grape Escape 2023</a>
-            </div>
-            <div class="hidden md:flex flex-col items-center underline">
-                <a href="">
-                    <p>SEE THE WHOLE PROGRAM</p>
-                </a>
-            </div>
-        </section>
-        <section class="px-[12%] flex flex-col items-center py-[3%]">
-            <h2 class="text-center text-black text-[20px]">Featured speakers</h2>
-            <hr class="w-[35px] bg-[#ec5242] h-[4px]">
-            <div id="speakers" class="ml-[3%] mt-[72px] grid gap-[12px] grid-cols-1 md:grid-cols-2 justify-items-center">
-            </div>
-        </section>
+      <section
+        class="bg-[#272a31] py-[5%] px-[3%] md:px-[10%] bg-[url('assets/program-bg.png')] text-center text-white flex flex-col items-center"
+      >
+        <h2 class="text-center text-white text-[20px]">Main program</h2>
+        <hr class="w-[40px] bg-[#ec5242] h-[3px]" />
+        <div
+          class="ml-[3%] mt-[50px] pb-[100px] grid gap-2 md:gap-5 grid-cols-1 md:grid-cols-5 justify-items-center"
+        >
+          <div
+            class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center"
+          >
+            <img src="assets/program_icon_01.png" alt="desk-logo" />
+            <h2 class="text-[20px] text-[#ec5242]">Lecture</h2>
+            <p class="text-[12px]" id="project-text">
+              Listen to the speakers from various countries about the messages
+              of sharing and opening..
+            </p>
+          </div>
+          <div
+            class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center"
+          >
+            <img src="assets/program_icon_04.png" alt="white-board-logo" />
+            <h2 class="text-[20px] text-[#ec5242]">CC Exhibition</h2>
+            <p class="text-[12px]" id="project-text">
+              Appreciate various creations applying CC license of artists,
+              organized from Art Center Nabi.
+            </p>
+          </div>
+          <div
+            class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center"
+          >
+            <img src="assets/program_icon_05.png" alt="forum-logo" />
+            <h2 class="text-[20px] text-[#ec5242]">Forum</h2>
+            <p class="text-[12px]" id="project-text">
+              Have the time to share your thoughts and opinions with experts for
+              each topic.
+            </p>
+          </div>
+          <div
+            class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center"
+          >
+            <img
+              class="justify-center"
+              src="assets/program_icon_01.png"
+              alt="desk-logo"
+            />
+            <h2 class="text-[20px] text-[#ec5242]">Workshop</h2>
+            <p class="text-[12px]" id="project-text">
+              Try creating your own work using open source license rather than
+              just watching at it..
+            </p>
+          </div>
+          <div
+            class="flex bg-[#5f5f5f50] p-[20px] md:flex-col flex-row gap-4 justify-center items-center"
+          >
+            <img src="assets/program_icon_01.png" alt="desk-logo" />
+            <h2 class="text-[20px] text-[#ec5242]">CC Ignite</h2>
+            <p class="text-[12px]" id="project-text">
+              Get opportunities to network with CC affiliates around the world,
+              also after the summit..
+            </p>
+          </div>
+        </div>
+        <div class="md:hidden text-white bg-[#ec5242] px-[20%] py-[5%]">
+          <a href="">Join The Grape Escape 2023</a>
+        </div>
+        <div class="hidden md:flex flex-col items-center underline">
+          <a href="">
+            <p>SEE THE WHOLE PROGRAM</p>
+          </a>
+        </div>
+      </section>
+      <section class="px-[12%] flex flex-col items-center py-[3%]">
+        <h2 class="text-center text-black text-[20px]">Featured speakers</h2>
+        <hr class="w-[35px] bg-[#ec5242] h-[4px]" />
+        <div
+          id="speakers"
+          class="ml-[3%] mt-[72px] grid gap-[12px] grid-cols-1 md:grid-cols-2 justify-items-center"
+        ></div>
+      </section>
 
-        <!-- partners -->
+      <!-- partners -->
 
-        <section class="hidden bg-[#414246] px-[10%] py-[3%] md:flex flex-col items-center">
-            <h2 class="text-center text-[#d3d3d3] text-[20px]">Partners</h2>
-            <hr class="w-[45px] bg-[#ec5242] h-[4px]">
-            <div class="flex gap-10 justify-center item-center m-[20px] flex-wrap">
-                <a href=""><img class="partners" src="assets/amazon.png" alt="amazon-logo"></a>
-                <a href=""><img class="partners" src="assets/microsoft.png" alt="microsoft-logo"></a>
-                <a href=""><img class="partners" src="assets/linkedin.png" alt="linkediIn-logo"></a>
-                <a href=""><img class="partners" src="assets/ibm.png" alt="ibm-logo"></a>
-                <a href=""><img class="partners" src="assets/google-developers.png" alt="google-developers-loga"></a>
-            </div>
-        </section>
+      <section
+        class="hidden bg-[#414246] px-[10%] py-[3%] md:flex flex-col items-center"
+      >
+        <h2 class="text-center text-[#d3d3d3] text-[20px]">Partners</h2>
+        <hr class="w-[45px] bg-[#ec5242] h-[4px]" />
+        <div class="flex gap-10 justify-center item-center m-[20px] flex-wrap">
+          <a href=""
+            ><img class="partners" src="assets/amazon.png" alt="amazon-logo"
+          /></a>
+          <a href=""
+            ><img
+              class="partners"
+              src="assets/microsoft.png"
+              alt="microsoft-logo"
+          /></a>
+          <a href=""
+            ><img
+              class="partners"
+              src="assets/linkedin.png"
+              alt="linkediIn-logo"
+          /></a>
+          <a href=""
+            ><img class="partners" src="assets/ibm.png" alt="ibm-logo"
+          /></a>
+          <a href=""
+            ><img
+              class="partners"
+              src="assets/google-developers.png"
+              alt="google-developers-loga"
+          /></a>
+        </div>
+      </section>
     </main>
 
-<!-- footer -->
+    <!-- footer -->
 
     <footer class="hidden px-[10%] py-[3%] md:flex gap-10">
-        <a href=""><img src="assets/wine-glass.png" alt="wine-glass icon">wine~up</a>
-        <div>
-            <h3>2023 Naledi Dikgale South Africa. some rights reserved</h3>
-            <p>Naledi Dikgale “all rights reserved”
-                달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
-자세한 이용기능 내용과 허락조건은 http://naldi22khosi@gmail.com/licences/by/2.0/kr 를 보세요.
-            </p>
-        </div>
-
+      <a href=""
+        ><img src="assets/wine-glass.png" alt="wine-glass icon" />wine~up</a
+      >
+      <div>
+        <h3>2023 Naledi Dikgale South Africa. some rights reserved</h3>
+        <p>
+          Naledi Dikgale “all rights reserved” 달리 정하지 않은 웹사이트의 모든
+          내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라
+          이용할 수 있습니다. 자세한 이용기능 내용과 허락조건은
+          http://naldi22khosi@gmail.com/licences/by/2.0/kr 를 보세요.
+        </p>
+      </div>
     </footer>
-  
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
