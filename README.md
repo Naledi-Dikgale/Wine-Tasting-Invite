@@ -60,7 +60,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo">https://youtu.be/iueJzSJxBfw</a>
+## 🚀 Live Demo <a name="live-demo">https://www.loom.com/share/db85773da19c4a2086ddb25241d3484a</a>
 
 
 
@@ -137,7 +137,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Naledi-Dikgale/apstone1-project/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#reahttps://github.com/Naledi-Dikgale">back to top</a>)</p>
 
 
 ## ⭐️ Show your support <a name="support"></a>
@@ -145,7 +145,7 @@ Feel free to check the [issues page](https://github.com/Naledi-Dikgale/apstone1-
 
 If you like this project Please star it in my github page.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/Naledi-Dikgale">back to top</a>)</p>
 
 
 ## 🙏 Acknowledgments <a name="Sindy Shin">https://www.behance.net/adagio07</a>

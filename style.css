@@ -74,6 +74,15 @@ i:hover {
   text-align: left;
 }
 
+#hero-text {
+  color: transparent;
+  font-weight: 900 !important;
+  background-image: url('./assets/hero.jpg');
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 @media (max-width: 768px) {
   #speakers {
     width: 100vw;
