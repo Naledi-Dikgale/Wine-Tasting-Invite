@@ -6,13 +6,13 @@ const foldMenu = document.querySelector('.close');
 
 function openMobMenu() {
   menuCont.classList.add('menu-open');
-  menuCont.style.display = 'block'
+  menuCont.style.display = 'block';
 }
 
 expandMenu.addEventListener('click', openMobMenu);
 function closeMobMenu() {
   menuCont.classList.remove('menu-open');
-  menuCont.style.display = 'none'
+  menuCont.style.display = 'none';
 }
 foldMenu.addEventListener('click', closeMobMenu);
 
