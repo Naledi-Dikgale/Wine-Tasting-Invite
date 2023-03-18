@@ -1,8 +1,7 @@
-@import url('http://fonts.cdnfonts.com/css/lato');
-@import url(https://fonts.adobe.com/fonts/lato#details-section+lato-black);
+@import url("http://fonts.cdnfonts.com/css/lato");
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 /*  navigation */
