@@ -1,8 +1,11 @@
 @import url('http://fonts.cdnfonts.com/css/lato');
+@import url(https://fonts.adobe.com/fonts/lato#details-section+lato-black);
 
 body {
   font-family: 'Lato', sans-serif;
 }
+
+/*  navigation */
 
 .menu-open {
   display: block;
@@ -58,6 +61,17 @@ i:hover {
 .menu-img {
   display: none;
 }
+
+.logo {
+  height: auto;
+}
+
+.partners {
+  height: 50px;
+  width: 150px;
+}
+
+/*  desktop */
 
 @media (min-width: 768px) {
   nav {
