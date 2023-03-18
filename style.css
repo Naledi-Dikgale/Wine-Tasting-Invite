@@ -71,6 +71,10 @@ i:hover {
   width: 150px;
 }
 
+#project-text {
+  text-align: left;
+}
+
 /*  desktop */
 
 @media (min-width: 768px) {
