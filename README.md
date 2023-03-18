@@ -66,7 +66,7 @@
 
 
 
-- [Live Demo Link](https://naledi-dikgale.github.io/capstone1-project/)
+- [Live Demo Link]( https://naledi-dikgale.github.io/capstone1-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
