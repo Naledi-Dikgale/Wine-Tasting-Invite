@@ -77,7 +77,7 @@ i:hover {
 #hero-text {
   color: transparent;
   font-weight: 900 !important;
-  background-image: url('./assets/hero.jpg');
+  background-image: url("./assets/hero.jpg");
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
@@ -92,6 +92,25 @@ i:hover {
     display: flex;
     align-items: center;
   }
+
+  .see-more {
+    display: block;
+    width: 95vw;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: large;
+    line-height: 40px;
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0, 2), 0 6px 20px 0 rgb(0, 0, 0, 0, 19);
+  }
+
+  .more-icon {
+    color: #ff4f38;
+    margin-left: 6px;
+  }
+
+  /* .mordis {
+    display: none !important;
+  } */
 }
 
 /*  desktop */
