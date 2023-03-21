@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Naledi's Capstone</title>
+  </head>
+
+  <body>
+    <header>
+      <ul
+        class="hidden items-center bg-gray-800 text-white md:flex justify-end h-[30px] pr-[10%]"
+      >
+        <li class="p-1">
+          <a href=""><i class="bi bi-facebook"></i></a>
+        </li>
+        <li class="p-1">
+          <a href=""><i class="bi bi-twitter"></i></a>
+        </li>
+        <li class="p-1"><a href="">English </a></li>
+        <li class="p-1"><a href="">My Page </a></li>
+        <li class="p-1"><a href="">logout  </a></li>
+      </ul>
+
+      <!-- navigation -->
+
+      <nav class="px-[10%] md:flex h-[55px] justify-between shadow-xl">
+        <i class="menulist bi bi-list md:hidden p-4 text-[40px] pl-0"></i>
+        <a class="p-3 hidden md:flex" href="index.html"
+          ><img class="logo" src="assets/wine-glass.png" alt="" />wine~up</a
+        >
+        <ul class="items md:flex items-center justify-center">
+          <li class="close"><i class="bi bi-x-lg"></i></li>
+          <li class="item p-3 m-1 hover:text-[#ec5242]">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="item p-3 m-1 hover:text-[#ec5242]">
+            <a href="">Program</a>
+          </li>
+          <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Join</a></li>
+          <li class="item p-3 m-1 hover:text-[#ec5242]">
+            <a href="">Sponsor</a>
+          </li>
+          <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">News</a></li>
+          <li
+            class="item p-1 m-1 hover:text-[#ec5242] border-solid border-4 border-[#ec5242]"
+          >
+            <a href="">CC Campaign</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      
+      <!-- about -->
+
+      <section class="bg-[url('assets/desk.png')] bg-contain bg-slate-400">
+        <div
+          class="bg-[#5f5ff50] flex flex-col text-center items-center justify-items-center py-[5%] gap-10"
+        >
+          <div class="text-[#ec5242]">
+            <h1 class="text-[40px] md:text-[80px] (lato black)" id=hero-text>
+              The Grape Escape<br />Wine Tasting and Braai
+            </h1>
+          </div>
+          <hr class="w-[40px] bg-[#ec5242] h-[3px]" />
+          <div
+            class="flex bg-white text-[#272a31] px-[10%] py-[5%] text-[#746f6f] mx-[10%] border-solid border-[1px] border-[#d3d3d3]"
+          >
+            <p>
+              Come raise your glass with us on yet another one of our annual
+              parties where we share inside information with future Scientists
+              on how to brew the finest wine in the world. 
+              This is the ultimate wine-tasting extravagant party you cannot afford to miss!
+              Good music, Good food and lots of Chemistry: "Science behind wine brewing"
+            </p>
+          </div>
+          <p class="text-black">
+            Communicate via Email for clarity and reservations!<br />
+            naledi22khosi@gmail.com
+          </p>
+        </div>
+      </section>
+      <hr class="bg-[#ec5242] flex w-[100%] item-center" />
+      <section
+        class="bg-white px-[10%] text-center text-black flex flex-col items-center gap-3"
+      >
+        <h2 class="text-center text-[#272a31] text-[25px] mt-[5%]">
+          The ultimate wine tasting party of 2023
+        </h2>
+        <hr class="w-[40px] bg-[#ec5242] h-[3px]" />
+        <p class="text-center">
+          The logo of CC Global Summit 2023 was decided through the logo
+          competition from 8, June to 7, July.
+        </p>
+        <div
+          class="my-[5%] px-[5%] py-[2%] border-solid border-[1px] border-[#d3d3d3]"
+        >
+          <img src="assets/wine-glass.png" alt="" />
+        </div>
+      </section>
+
+      <!-- past events -->
+
+      <hr class="bg-[#ec5242] flex w-[100%] item-center" />
+      <section
+        class="px-[10%] flex flex-col items-center gap-3 justify-center items-center"
+      >
+        <h2 class="text-center text-[#272a31] text-[25px] mt-[5%]">
+          See the past Wine tasting Parties
+        </h2>
+        <hr class="w-[40px] bg-[#ec5242] h-[3px]" />
+        <p>
+          Take a look at the past two Wine tasting parties which took place in
+          Lesotho and in Uganda
+        </p>
+        <div
+          class="ml-[3%] mt-[50px] pb-[100px] grid gap-[10px] grid-cols-1 md:grid-cols-2 justify-items-center"
+        >
+          <div
+            class="h-[320px] bg-[url('assets/hero-background.jpg')] bg-contain"
+          >
+            <div
+              class="text-[#fff] hover:bg-[#ec53423d] bg-[#ec5342bd] h-[inherit] p-[20px] flex justify-center flex-col flex-nowrap gap-5 items-center"
+            >
+              <h2 class="text-[25px] text-[#fff]">2019</h2>
+              <p class="text-center">Wine Tasting Party in Lesotho.</p>
+            </div>
+          </div>
+
+          <div
+            class="h-[320px] bg-[url('assets/hero-background.jpg')] bg-contain"
+          >
+            <div
+              class="text-[#fff] hover:bg-[#ec53423d] bg-[#ec5342bd] h-[inherit] p-[20px] flex justify-center flex-col flex-nowrap gap-5 items-center"
+            >
+              <h2 class="text-[25px] text-[#fff]">2021</h2>
+              <p class="text-center">Wine Tasting Party in Uganda.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="px-[10%] py-[5%] text-white flex bg-[#414246]">
+      <a href=""><img src="assets/wine-glass.png" alt="" />wine~up</a>
+      <div class="px-[5%]">
+        <h3>2023 Naledi Dikgale South Africa. some rights reserved</h3>
+        <p class="hidden md:block">
+          Naledi Dikgale copyright “all rights reserved”
+          http://naldi22khosi@gmail.com/licences/by/2.0/kr .
+        </p>
+      </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

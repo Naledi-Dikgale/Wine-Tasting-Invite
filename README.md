@@ -2,10 +2,8 @@
 
 <div align="center">
   
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
 
-  <h3><b>Hello Microverse</b></h3>
+  <h3><b>Wine tasting Invite</b></h3>
 
 </div>
 
@@ -32,11 +30,11 @@
 - [📝 License](#license)
 
 
-# 📖 Hello Microverse <a name="about-project"></a>
+# 📖 Wine Tasting Party Invite <a name="about-project"></a>
 
 
 
-**Hello Microverse** is a project to display hello world
+**Wine Tasing invite-project** is a project to showcase my html,CSS and javascript skills applied in bulding a project
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -62,11 +60,11 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo">https://www.loom.com/share/db85773da19c4a2086ddb25241d3484a</a>
 
 
 
-- [Live Demo Link](https://naledi-dikgale.github.io/hello-microverse/)
+- [Live Demo Link]( https://naledi-dikgale.github.io/capstone1-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,7 +87,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Naledi-Dikgale/hello-microverse.git
+  git clone https://github.com/Naledi-Dikgale/capstone1-project.git
 ```
 
 
@@ -98,7 +96,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd Hello_Microverse
+  cd capstone1-project
   npm install
 ```
 
@@ -137,9 +135,9 @@ open index.html in your browser
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Naledi-Dikgale/hello-microverse/issues).
+Feel free to check the [issues page](https://github.com/Naledi-Dikgale/apstone1-project/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#reahttps://github.com/Naledi-Dikgale">back to top</a>)</p>
 
 
 ## ⭐️ Show your support <a name="support"></a>
@@ -147,10 +145,10 @@ Feel free to check the [issues page](https://github.com/Naledi-Dikgale/hello-mic
 
 If you like this project Please star it in my github page.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="https://github.com/Naledi-Dikgale">back to top</a>)</p>
 
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="Sindy Shin">https://www.behance.net/adagio07</a>
 
 
 I would like to thank my teammates.
