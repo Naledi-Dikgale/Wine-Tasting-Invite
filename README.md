@@ -34,8 +34,7 @@
 
 
 
-**Wine Tasing invite-project** is a project to showcase my html,CSS and javascript skills applied in bulding a project
-
+**Wine Tasing invite-project** Wine-Tasting Party Invitation is a website dedicated to an extravagant wine-tasting event, the website has two pages, multiple sections, and logos created using HTML, CSS, and JavaScript.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -64,7 +63,7 @@
 
 
 
-- [Live Demo Link]( https://naledi-dikgale.github.io/capstone1-project/)
+- [Live Demo Link](  https://naledi-dikgale.github.io/capstone1-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
