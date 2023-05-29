@@ -74,7 +74,7 @@ speakersList.forEach((speaker, index) => {
         <p class="text-[12px]" >${speaker.description}</p>
     </div>
       `);
-      if(index > 1) innerProject.classList.add('mordis');
+  if (index > 1) innerProject.classList.add('mordis');
   speakerss.appendChild(innerProject);
 });
 const mordis = document.querySelectorAll('.mordis');
@@ -83,6 +83,6 @@ const more = document.querySelector('.see-more');
 more.onclick = () => {
   mordis.forEach((item) => {
     item.classList.remove('mordis');
-  })
+  });
   more.style.display = 'none';
-}
+};
