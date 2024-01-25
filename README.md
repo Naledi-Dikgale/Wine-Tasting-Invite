@@ -59,7 +59,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo">https://www.loom.com/share/db85773da19c4a2086ddb25241d3484a</a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
 
 
@@ -110,12 +110,11 @@ open index.html in your browser
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Naledi Dikgale**
 
 - GitHub: [@Naledi-Dikgale](https://github.com/Naledi-Dikgale)
-- LinkedIn: [naledi-dikgale-068423159](https://www.linkedin.com/in/naledi-dikgale-068423159/)
+- LinkedIn: [naledi-dikgale](https://www.linkedin.com/in/naledi-dikgale-068423159/)
+- Website: [@Naledi-Dikgale](naledi.netlify.app/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
